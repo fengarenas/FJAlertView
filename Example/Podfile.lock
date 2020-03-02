@@ -1,0 +1,23 @@
+PODS:
+  - FJAlertView (0.1.0):
+    - Masonry (~> 1.1.0)
+  - Masonry (1.1.0)
+
+DEPENDENCIES:
+  - FJAlertView (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Masonry
+
+EXTERNAL SOURCES:
+  FJAlertView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FJAlertView: c575283c6f38c9d19b81e85d1e23852e3fc8be7c
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+
+PODFILE CHECKSUM: 67e48e6d4644f34bc562a07b283eb57083e9dee6
+
+COCOAPODS: 1.8.4
