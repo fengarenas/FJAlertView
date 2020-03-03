@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'FJAlertControlelr'
+  s.name             = 'FJAlertController'
   s.version          = '0.1.0'
   s.summary          = 'a custom AlertView like UIAlertViewController'
   s.homepage         = 'https://github.com/fengarenas/FJAlertView'
