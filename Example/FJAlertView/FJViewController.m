@@ -7,7 +7,7 @@
 //
 
 #import "FJViewController.h"
-#import <FJAlertView/FJAlertController.h>
+#import <FJAlertController/FJAlertController.h>
 #import <Masonry.h>
 
 @interface FJViewController ()
@@ -98,7 +98,7 @@
         [self presentViewController:alert animated:YES completion:nil];
     } else if (section==3) {
         FJAlertStyle *style = [FJAlertStyle defaultStyle];
-        style.background.blur = YES;//背景模糊效果
+        style.background.blur = NO;//背景模糊效果
         style.background.canDismiss = YES;//点击背景 dismiss
         
         /*
@@ -149,7 +149,10 @@
         }];
         [alert addAction:action];
         [alert addAction:action2];
-        [self presentViewController:alert animated:YES completion:nil];
+        UIWindow *win = [UIApplication sharedApplication].windows.firstObject;
+        UIViewController *vc = win.rootViewController;
+        [vc presentViewController:alert animated:YES completion:nil];
+        
     } else if (section==4) {
         UIView *v = UIView.new;
         v.backgroundColor = UIColor.blueColor;

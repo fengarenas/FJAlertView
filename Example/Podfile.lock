@@ -1,23 +1,23 @@
 PODS:
-  - FJAlertView (0.1.0):
+  - FJAlertController (0.1.0):
     - Masonry (~> 1.1.0)
   - Masonry (1.1.0)
 
 DEPENDENCIES:
-  - FJAlertView (from `../`)
+  - FJAlertController (from `../`)
 
 SPEC REPOS:
   trunk:
     - Masonry
 
 EXTERNAL SOURCES:
-  FJAlertView:
+  FJAlertController:
     :path: "../"
 
 SPEC CHECKSUMS:
-  FJAlertView: c575283c6f38c9d19b81e85d1e23852e3fc8be7c
+  FJAlertController: 26f4ab3f281fa36c85251b356021ff8585867d0c
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
 
-PODFILE CHECKSUM: 67e48e6d4644f34bc562a07b283eb57083e9dee6
+PODFILE CHECKSUM: 339736bffedef204782e188fa6b2c1fb74f100d8
 
 COCOAPODS: 1.8.4
